@@ -45,5 +45,16 @@ public class Var : MonoBehaviour
 
         Debug.Log("string Data : "+stringValue);
         Debug.Log("bool Data : "+ boolValue);
+
+        //오브젝트
+        object valueInt = 31;
+        object valueFloat = 3.13592f;
+        object valueString = "hi";
+        object valueBool = false;
+
+        Debug.Log("정수 : "+ valueInt);
+        Debug.Log("실수 : "+valueFloat);
+        Debug.Log("문자열 : "+valueString);
+        Debug.Log("논리 : "+valueBool);
     }
 }
