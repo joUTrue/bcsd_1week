@@ -37,5 +37,4 @@ public class Cal : MonoBehaviour
         Debug.Log($"{a}=={b}={a== b}");
         Debug.Log($"{a}!={b}={a !=b}");
     }
-
 }
